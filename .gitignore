@@ -1,0 +1,22 @@
+########## IDEA ##########
+
+# Ignore IDEA build directory
+out/
+
+# Ignore IDEA project files
+*.iml
+*.ipr
+*.iws
+.gitignore
+
+# Ignore all in .idea directory
+.idea/*
+
+# Don't ignore non environment-specific configs
+!.idea/codeStyles/
+!.idea/encodings.xml
+
+#Artifacts
+
+*.class
+*.war
