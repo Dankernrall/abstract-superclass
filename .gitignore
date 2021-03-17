@@ -1,3 +1,17 @@
+########## Test #############
+
+
+########## Gradle ##########
+.gradle
+build/
+
+########## Eclipse ##########
+.settings
+.project
+.classpath
+.springBeans
+bin
+
 ########## IDEA ##########
 
 # Ignore IDEA build directory
@@ -7,7 +21,6 @@ out/
 *.iml
 *.ipr
 *.iws
-.gitignore
 
 # Ignore all in .idea directory
 .idea/*
@@ -20,3 +33,17 @@ out/
 
 *.class
 *.war
+
+#Git merge original files
+*.orig
+
+########## Nodejs ##########
+node_modules
+debug.log
+
+########## Lombok ##########
+lombok.config
+
+
+########## local-application.properties ######
+local-application.properties
